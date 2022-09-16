@@ -36,8 +36,15 @@ a{
 
 header{
     background-color: rgba(255,255,255,0.5);
+    margin-bottom: -20px;
+    
 }
 
 footer{
     text-align: center;
+}
+
+.img1{
+    width: 20%;
+    height: 500px;
 }
