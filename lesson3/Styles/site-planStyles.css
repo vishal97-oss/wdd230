@@ -11,16 +11,19 @@
 nav{
     background-color: #aaa;
 	display: flex;
-	flex-flow: column;
-	align-items: center;
+	justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
 }
 
 a{
     text-decoration: none;
 }
 
+
 header, footer{
-    background-color: gray;
+    background-color:  #aaa;
     height: 50px;
     
     max-width: 767px;
@@ -78,17 +81,17 @@ img{
     font-family: 'Satisfy', cursive;
 
 }
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width:480px){
     body {
         background-color: lightblue;
       }
-    nav a{
-        display: flex;
-        justify-content: space-evenly;
-        justify-content: space-around;
-	
 
-    
-	
-}
+    nav {
+        display: flex;
+        flex-flow: column;
+        align-items: center;	
+    }
+    img{
+        width: 80%;
+    }
 }
