@@ -1,5 +1,9 @@
 
-
+.date{
+    text-align: center;
+    background-color: white;
+    
+}
 button{
     background-color: red;
 }
