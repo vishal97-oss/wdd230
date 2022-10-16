@@ -34,3 +34,20 @@ let Ham = document.querySelector('.HMB');
 let Nav = document.querySelector('nav');
 
 Ham.addEventListener('click', () => {Nav.classList.toggle ('happen')} );
+
+
+let day = now.getDay(); {
+    if (day == 1 || day == 2) {
+        document.querySelector("#RenDate").style.display="block";
+    }
+}
+
+
+// const day = document.getElementById("RenDate"); // specific for id selection
+
+
+// function Date() {
+//     if day.value == "Wednesday" {
+
+//     }
+// }
