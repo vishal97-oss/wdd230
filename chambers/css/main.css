@@ -17,7 +17,9 @@ header{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 75px;
-
+}
+button{
+    cursor: pointer;
 }
 #div6 button{
     background-color: lightgray ;
