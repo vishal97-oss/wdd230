@@ -33,13 +33,13 @@
     <main>
       <div id="div1">
         <picture>
-          <source media="(min-width:1000px)" srcset="./images/Main.jpg" />
+          <source media="(min-width:1000px)" srcset="./images/Main2.jpg" />
           <source
             media="(min-width:500px)"
-            srcset="./images/Landscapemedium.jpg"
+            srcset="./images/Landscapemedium2.jpg"
           />
-          <source media="(min-width:1600px)" srcset="./images/rsz_small.jpg" />
-          <img src="./images/rsz_small.jpg" alt="Flowers" style="width: auto" />
+          <!-- <source media="(min-width:1600px)" srcset="./images/rsz_small.jpg" /> -->
+          <img src="./images/rsz_small2.jpg" alt="Flowers" />
         </picture>
         <button type="button">Join the Chambers</button>
       </div>
@@ -55,11 +55,12 @@
       </div>
       <div id="div3a">
         <h2>Weather</h2>
-        <h3><img id="icon2" src="./images/storm.png" alt="" /> 20&#x2103;</h3>
+        <img id="icon2" src="./images/storm.png" alt="" />
+        <h3><span id="t"> 20 </span>&#8457;</h3>
         <h4><b>Thunderstorm</b></h4>
         <hr />
-        <p>Wind Speed: 25km/h</p>
-        <p>Wind Chill: 10&#x2103;</p>
+        <p>Wind Speed: <span id="speed"> 25</span>km/h</p>
+        <p>Wind Chill: <span id="WC"> NA</span>&#8457;</p>
       </div>
       <div id="div3">
         <h2>
@@ -105,7 +106,7 @@
     <footer>
       <div id="top">
         <div>
-          <img src="./images/rsz_logo-color.png" alt="logo" />
+          <img src="./images/rsz_logo-color.webp" alt="logo" />
           <h4>NYC Chambers of Commerce E 109th st</h4>
         </div>
         <div>

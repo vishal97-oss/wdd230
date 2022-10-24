@@ -42,6 +42,16 @@ let day = now.getDay(); {
     }
 }
 
+let temp = document.getElementById('t').textContent; 
+let windspeed = document.getElementById('speed').textContent; 
+
+if(temp < 50 && windspeed > 3) {
+    let WindChill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
+    document.getElementById("WC").textContent = WindChill;
+}
+
+
+
 
 // const day = document.getElementById("RenDate"); // specific for id selection
 
@@ -51,3 +61,4 @@ let day = now.getDay(); {
 
 //     }
 // }
+

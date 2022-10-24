@@ -1,4 +1,9 @@
 
+ #div1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 #RenDate{
     display: none;
     text-align: center;
@@ -36,10 +41,7 @@ button{
     text-decoration: none;
  }
 
-#homepic{
-    width: 100%;
-  
-}
+
 .date{
     text-align: center;
     background-color: white;
@@ -98,7 +100,7 @@ ul{
     width: 30px;
 }
 #icon2{
-    width: 70px;
+    width: 30px;
 }
 #icon3{
     width: 70px;
@@ -116,7 +118,7 @@ ul{
 }
 #div3a h2{
     color: yellow;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     
 }
@@ -186,7 +188,7 @@ body {
     #div1{
         grid-column: 1/5;
         grid-row: 1/2;
-        position: static;
+        
     }
     #div2{
         grid-column: 1/4;
@@ -244,6 +246,7 @@ body {
     main{
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
+        
     }
     ul{
         
@@ -318,5 +321,6 @@ body {
     #div7 h2{
         color: yellow;
     }
+   
 
   }
