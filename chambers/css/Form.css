@@ -1,0 +1,25 @@
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+thead td, tfoot td{
+    background-color: pink;
+}
+
+td, th{
+    padding: 10px;
+    font-size: 2em;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(3), td {
+    font-style: italic;
+}
+
+table{
+    width: 600px;
+    margin: 0 auto; /** Its a block lever so margin 0 auto **/
+}

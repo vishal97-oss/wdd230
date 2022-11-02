@@ -1,0 +1,3 @@
+Style tag will overwrite id and id takes over class and class takes over type(H1,p, h2)
+
+css pseudo classes

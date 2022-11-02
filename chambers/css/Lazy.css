@@ -1,0 +1,65 @@
+img:hover{
+    opacity: .6;
+    transform: scale(0.9);
+}
+img{
+    width: 100%;
+    /* border: solid black 10px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; */
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    background-color: lightgray;
+    margin: 0;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgray;
+    margin: 0;
+    padding: 35px;
+    margin-top: 10px;
+    
+}
+#CentralPark{
+    display: block;
+}
+
+@media only screen and (min-width: 500px) {
+    #CentralPark{
+        display: none;
+    }
+    #main-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #main-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+    #CentralPark{
+        display: block;
+        
+    }
+    
+}
