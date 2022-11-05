@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- post is more secure and get is one when you see on the URL -->
+    <form method="post" action="">
+      <!--Injection?-->
+      <!--We can also put in DIv and use flexbox-->
+      <label for="fname">First Name</label>
+      <!--for and id should always match-->
+      <!--Many types of text type-->
+      <input id="fname" type="text" name="firstname" required />
+      <!--name attribute is for backend-->
+      <label for="lname">First Name</label>
+      <input id="lname" type="text" name="lastname" required />
+
+      <label for="title">Business position Title*:</label>
+      <input type="text" />
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <td colspan="2">Header</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Week 9</td>
+          <td>Tables</td>
+        </tr>
+        <tr>
+          <td>Form</td>
+        </tr>
+        <tr>
+          <td>Week 10</td>
+          <td>API</td>
+        </tr>
+        <tr>
+          <td>Week 11</td>
+          <td>Weather App</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Hello</td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </body>
+</html>

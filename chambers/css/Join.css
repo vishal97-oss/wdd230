@@ -1,0 +1,52 @@
+input, label{
+    display: block;
+}
+input[type=text], input[type=email], input[type=tel]{
+    margin-bottom: 15px;
+    width: 50%;
+    
+}
+.radio input, .radio label{
+    display: inline;
+    margin: 0;
+    
+}
+
+
+ 
+@media only screen and (min-width: 500px) {
+    #flexbox{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    input[type=text], input[type=email], input[type=tel]{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form{
+        width: 50%;
+    }
+    #xyz{
+        width: 40%;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #flexbox{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    input[type=text], input[type=email], input[type=tel]{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form{
+        width: 50%;
+    }
+    #xyz{
+        width: 40%;
+    }
+} 

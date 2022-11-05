@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Join.css" />
+  </head>
+  <body>
+    <div id="flexbox">
+      <form method="get" action="">
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" name="firstname" required />
+
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" name="lirstname" required />
+
+        <label for="BusinessPosition">Business Position</label>
+        <span>7 Characters only (No Spacial Characters)</span>
+        <input
+          minlength="7"
+          pattern="[- A-Za-z]+"
+          id="BusinessPosition"
+          type="text"
+          name="BusinessPosition"
+        />
+        <label for="Email">Email</label>
+        <input
+          placeholder="xyz@email"
+          type="email"
+          name="email"
+          id="email"
+          required
+        />
+        <label for="CellPhoneNumber">Cell Phone Number</label>
+        <input
+          placeholder="123-456-7890"
+          type="tel"
+          name="CellPhoneNumber"
+          id="CellPhoneNumber"
+        />
+
+        <label for="BusinessName">Bsuiness Name</label>
+
+        <input type="text" id="BusinessName" name="BusinessName" required />
+        <button formaction="./msg.html" id="button">Submit</button>
+        <h2>Select your Membership</h2>
+        <div class="radio">
+          <input
+            type="radio"
+            id="BronzeMembership"
+            name="BronzeMembership"
+            value="BronzeMembership"
+          />
+          <label for="BronzeMembership">Bronze Membership</label>
+        </div>
+        <div class="radio">
+          <input
+            type="radio"
+            name="SilverMembership"
+            id="SilverMembership"
+            value="SilverMembership"
+          />
+          <label for="SilverMembership">Silver Membership</label>
+        </div>
+        <div class="radio">
+          <input
+            type="radio"
+            name="GoldMembership"
+            id="GoldMembership"
+            value="GoldMembership"
+          />
+          <label for="GoldMembership">Gold Membership</label>
+        </div>
+      </form>
+
+      <div id="xyz">
+        <h1>Membership Levels Benefits</h1>
+        <h2>NP Membership</h2>
+        <h3>Bronze Membership</h3>
+        <ul>
+          <li>15% discount on events</li>
+          <li>10% discount on advertising</li>
+          <li>Fee of $50/month</li>
+        </ul>
+        <h3>Silver Membership</h3>
+        <ul>
+          <li>25% discount on events</li>
+          <li>15% discount on advertising</li>
+          <li>Free participation in the trade fair</li>
+          <li>Fee of $100/month</li>
+        </ul>
+        <h3>Gold Membership</h3>
+        <ul>
+          <li>50% discount on events</li>
+          <li>50% discount on advertising</li>
+          <li>Free participation in the trade fair</li>
+          <li>5 free featured ads per year</li>
+          <li>1 free training per quarter</li>
+          <li>Fee of $250/month</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- <h2>Membership Levels Benefits</h2>
+      <h3>NP Membership</h3>
+      <p>Bronze Membership</p> -->
+  </body>
+</html>

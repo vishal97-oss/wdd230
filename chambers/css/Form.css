@@ -1,9 +1,17 @@
-tr:nth-child(odd){
+/* tr:nth-child(odd){
+    background-color: lightgray;
+} */
+
+tbody tr:nth-child(3)  {
+    font-style: italic;
+}
+tr:nth-child(5) td:nth-child(3){  /* 5 rows down .... Third child of that row*/
     background-color: lightgray;
 }
 
 thead td, tfoot td{
-    background-color: pink;
+    background-color: blue;
+    text-align: center;
 }
 
 td, th{
@@ -15,11 +23,12 @@ table, th, td{
     border-collapse: collapse;
 }
 
-tbody tr:nth-child(3), td {
-    font-style: italic;
-}
 
 table{
     width: 600px;
     margin: 0 auto; /** Its a block lever so margin 0 auto **/
+}
+
+form{
+    margin-bottom: 50px;
 }
