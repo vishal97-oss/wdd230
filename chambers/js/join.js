@@ -1,5 +1,5 @@
-// document.getElementById("myBtn").addEventListener("click", displayDate);
+document.getElementById("myBtn").addEventListener("click", displayDate);
 
-// function displayDate() {
-//   window.location.assign("./msg.html");
-// }
+function displayDate() {
+  window.location.assign("./msg.html");
+}
