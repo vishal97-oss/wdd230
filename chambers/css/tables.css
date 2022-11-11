@@ -9,6 +9,10 @@ tr:nth-child(5) td:nth-child(3){  /* 5 rows down .... Third child of that row*/
     background-color: lightgray;
 }
 
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
 thead td, tfoot td{
     background-color: blue;
     text-align: center;
