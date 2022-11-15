@@ -17,7 +17,8 @@
         "companyname": "Starbucks",
         "address": "66 John St, New York, NY 10038",
         "phonenumber": "212-123-4567",
-        "website": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmymodernmet.com%2Fwp%2Fwp-content%2Fuploads%2F2017%2F10%2Ffamous-logo-from-memory-feat-big-2.jpg&imgrefurl=https%3A%2F%2Fmymodernmet.com%2Ffamous-company-logos-memory%2F&tbnid=cC3266dhUkpy7M&vet=12ahUKEwjJp_fzgaf7AhUHHN8KHdPTBtwQMygeegUIARCmAw..i&docid=IHwoRSvs3o_8WM&w=1170&h=700&q=business%20logos&hl=en&ved=2ahUKEwjJp_fzgaf7AhUHHN8KHdPTBtwQMygeegUIARCmAw"
+        "img":"",
+        "website": "https://www.starbucks.com/"
       },
       {
         "companyname": "Logo Text Here",
