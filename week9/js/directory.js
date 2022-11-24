@@ -22,12 +22,22 @@ function displayCompanies(item) {
     let card = document.createElement('section');
     let companyname = document.createElement('p')
     let address = document.createElement('p')
-    let phonenumber = document.createElement(p)
+    let phonenumber = document.createElement('p')
     let logo = document.createElement('img')
     let website = document.createElement('p')
 
     companyname.textContent = item.companyname
     logo.setAttribute('src', item.website);
+    address.textContent = item.address
+    phonenumber.textContent = item.phonenumber
+    website.textContent = item.website
+
+    card.appendChild(companyname);
+    card.appendChild(logo);
+    card.appendChild(address);
+    card.appendChild(phonenumber);
+    card.appendChild(website);
 
 
+    document.querySelector('.card').appendChild(card);
 }

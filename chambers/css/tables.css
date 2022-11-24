@@ -11,6 +11,7 @@ tr:nth-child(5) td:nth-child(3){  /* 5 rows down .... Third child of that row*/
 
 tr:nth-child(even){
     background-color: lightgrey;
+    
 }
 
 thead td, tfoot td{
