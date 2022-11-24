@@ -39,5 +39,5 @@ function displayCompanies(item) {
     card.appendChild(website);
 
 
-    document.querySelector('.card').appendChild(card);
+    document.querySelector('.Companies').appendChild(card);
 }
