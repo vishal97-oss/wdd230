@@ -19,7 +19,7 @@ getCompanies(requestURL);
 // document.querySelector("#grid").addEventListener("click", showGrid);
 
 function displayCompanies(item) {
-    let card = document.createElement('section');
+    let card = document.createElement('article');
     let companyname = document.createElement('p')
     let address = document.createElement('p')
     let phonenumber = document.createElement('p')
@@ -27,7 +27,7 @@ function displayCompanies(item) {
     let website = document.createElement('p')
 
     companyname.textContent = item.companyname
-    logo.setAttribute('src', item.website);
+    logo.setAttribute('src', item.logo);
     address.textContent = item.address
     phonenumber.textContent = item.phonenumber
     website.textContent = item.website
@@ -39,5 +39,15 @@ function displayCompanies(item) {
     card.appendChild(website);
 
 
-    document.querySelector('.Companies').appendChild(card);
+    document.querySelector('.cards').appendChild(card);
 }
+
+document.getElementById("listButton").addEventListener("click", () => {
+    document.querySelector(".cards").classList.add("list")
+    document.querySelector(".cards").classList.remove("grid")
+})
+
+document.getElementById("gridButton").addEventListener("click", () => {
+    document.querySelector(".cards").classList.add("grid")
+    document.querySelector(".cards").classList.remove("list")
+})
