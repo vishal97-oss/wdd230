@@ -6,16 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="./js/Discover.js"></script>
     <link rel="stylesheet" href="./css/Lazy.css" />
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="./js/jsfile.js"></script>
+    <script defer src="./js/weather-api.js"></script>
+    <link rel="shortcut icon" href="./Images/favicon.png" />
     <title>Lazy Loading</title>
   </head>
   <body>
     <header>
-      <h1>Lazy Loading</h1>
+      <img src="./images/rsz_logo-color.webp" alt="Logo" />
+      <h1>NYC Chambers of Commerce</h1>
     </header>
-    <h2>
+
+    <div class="date"></div>
+    <div id="RenDate">
+      <h3>Come join us for the Chambers meet and greet Wednesday at 7:00 PM</h3>
+    </div>
+    <nav>
+      <button class="HMB">&#9776;</button>
+      <div id="ul">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Discover.html">Discover</a></li>
+          <li><a href="./Join.html">Join</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <h2>
       This is the assingment to load the below picture as Lazy load and to show
       the local storage
-    </h2>
+    </h2> -->
     <main id="main-grid">
       <img
         src="https://dummyimage.com/500x333/ccc/fff"
@@ -67,6 +91,28 @@
 
     <footer>
       <h2>Time since last visit: <span id="localstorage"></span></h2>
+
+      <div id="top">
+        <div>
+          <img src="./images/rsz_logo-color.webp" alt="logo" />
+          <h4>NYC Chambers of Commerce E 109th st</h4>
+        </div>
+        <div>
+          <h4>nycchambersofcommerce.com</h4>
+          <h4>(917)-123-4567</h4>
+        </div>
+      </div>
+
+      <div id="bottom">
+        <div>
+          <h3>&copy; NYC Chambers of Commerce</h3>
+          <h2>Vishal Vaid</h2>
+        </div>
+        <div>
+          <h4>WDD 230 Project</h4>
+          <h2 id="currentdate">Last Updated</h2>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

@@ -20,7 +20,8 @@ img{
 }
 
 .cardlist, article{
-    border: 10px solid black;
+    border: 10px solid purple;
+    margin-top: 5px;
 }
 
 @media only screen and (min-width: 500px){

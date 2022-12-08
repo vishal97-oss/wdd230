@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #99582A;
+  --secondary-color: #FFFFFF;
+  --accent1-color: #E5EDF0;
+  --accent2-color: #E90B0B;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
@@ -20,11 +20,11 @@ Fonts are separated by a & */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --paragraph-background-color: Black  ;
+  --nav-link-color: Gold;
+  --nav-background-color: Black;
+  --nav-hover-link-color: Blue;
+  --nav-hover-background-color: White;
 }
 
 
@@ -149,6 +149,12 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+.sm-page6 {
+  grid-area: page4;
+  background-color: #ccc;
+  line-height: 3em;
+}
+
 .top {
   grid-area: top;
   border-left: 1px solid;
