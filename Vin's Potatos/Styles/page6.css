@@ -42,7 +42,7 @@ nav a{
   picture{
     position: relative;
   }
-  #pricebutton{
+  picture a{
     position: absolute;
     z-index: 1;
     bottom: 100px;
@@ -51,10 +51,10 @@ nav a{
     background-color: black;
     
   }
-  button a{
+  a{
     text-decoration: none;
     padding: 20px;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
   }
   main h1{

@@ -8,16 +8,18 @@ const getApi = async () => {
     document.getElementById("API").textContent = Math.round(16*jsObject.data.rates.RICE);
 }
 getApi();
+
 let documentItem = document.getElementById("lbs");
 let usDelivery = document.getElementById("Delivery");
 let usPickup = document.getElementById("Pickup");
 console.log(usDelivery)
 
-usDelivery.addEventListener("focusin", Calc);
+usDelivery.addEventListener("change", Calc);
 
-let lbs = document.getElementById("lbs").value;
+
 function Calc(){
-    answer == lbs * 1
+    let lbs = document.getElementById("lbs").value;
+    answer = lbs * 2
     console.log(answer)
 }
 

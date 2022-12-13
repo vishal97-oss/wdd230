@@ -45,17 +45,17 @@ nav a{
     background-color: black;
     
   }
-  button{
+  picture a{
     border-radius: 5em;
     background-color: black;
     color: white;
     cursor: pointer;
     
   }
-  button a{
+  a{
     text-decoration: none;
     padding: 20px;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
   }
   
