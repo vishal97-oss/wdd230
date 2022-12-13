@@ -8,11 +8,28 @@
     <title>About US</title>
   </head>
   <body>
+    <div>
+      <picture>
+        <source
+          media="(min-width:1000px)"
+          srcset="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
+        />
+        <source
+          media="(min-width:500px)"
+          srcset="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
+        />
+        <!-- <source media="(min-width:1600px)" srcset="./images/rsz_small.jpg" /> -->
+        <img
+          id="banner"
+          src="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
+          alt="Flowers"
+        />
+        <button id="pricebutton">
+          <a href="./checkprice.html">Check Price</a>
+        </button>
+      </picture>
+    </div>
     <header>
-      <img
-        src="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
-        alt="Titile_img"
-      />
       <nav>
         <a href="./Index.html">Home</a>
         <a href="./ourproduct.html">Our Product</a>
@@ -22,12 +39,16 @@
         <a href="./cart.html">Cart</a>
       </nav>
     </header>
-    <main>
+    <div id="logoh1">
       <img
         src="./Images/vins-idaho-potatoes-low-resolution-color-logo.png"
         alt="Logo"
       />
       <h1>VIN'S IDAHO POTATO</h1>
+    </div>
+    <main>
+      <h1>Cart Page</h1>
+      <div id="localstorage"></div>
     </main>
     <footer>
       <h3>VIN'S IDAHO POTATO &copy; 2022 - VIN</h3>

@@ -1,18 +1,35 @@
 #banner{
     width: 100%;
     height: 500px;
-    
 }
-
-nav{
-  display: flex;
-  justify-content: space-between;
+body{
+  margin: 0;
+  padding: 0;
+}
+picture{
+  position: relative;
+}
+button{
+  position: absolute;
+  z-index: 1;
+  bottom: 100px;
+  right: 100px;
+  border-radius: 5em;
+  background-color: black;
+  
+}
+button a{
+  text-decoration: none;
+  padding: 20px;
+  font-size: 2em;
+  color: white;
 }
 nav a{
   text-decoration: none;
   color: gold;
   text-align: center;
-  padding: 35px;
+  padding: 15px;
+  display: block;
 }
 nav a:hover{
   background-color: white;
@@ -63,21 +80,32 @@ body{
     #img1{
        grid-column: 1/2;
        grid-row: 2/3;
-
     }
     footer{
         display: flex;
         justify-content: space-around;
         background-color: black;
-      
     }
     body{
       background-color: #99582A;
     }
     header{
       background-color: black;
+      margin-top: -5px;
     }
     footer .social img   {
       padding-top: 15px;
     }
+    footer a{
+      font-size: 1.1em;
+    }
+    nav{
+      display: flex;
+      justify-content: space-between;
+    }
+    nav a{
+      padding: 35px;
+      font-size: 1.1em;
+    }
+    
   }

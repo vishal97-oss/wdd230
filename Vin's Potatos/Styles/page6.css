@@ -1,4 +1,103 @@
-header img{
+#banner{
     width: 100%;
     height: 500px;
+    
 }
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+p{
+    font-family: Source Sans Pro, sans-serif;
+}
+h1 h2 h3 h4 h5{
+    font-family: Roboto;
+}
+nav a{
+    text-decoration: none;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    display: block;
+  }
+  nav a:hover{
+    background-color: white;
+    color: blue;
+  }
+  footer a{
+    text-decoration: none;
+    color: gold;
+    text-align: center;
+    padding: 25px;
+  }
+  footer h3{
+    color: white;
+  }
+  body{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+  }  
+  picture{
+    position: relative;
+  }
+  #pricebutton{
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    right: 100px;
+    border-radius: 5em;
+    background-color: black;
+    
+  }
+  button a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 2em;
+    color: white;
+  }
+  main h1{
+    text-align: center;
+    grid-column: 1/3;
+  }
+
+  @media only screen and (min-width: 500px){
+    p{
+        font-family: Source Sans Pro, sans-serif;
+    }
+    h1 h2 h3 h4 h5{
+        font-family: Roboto;
+    }
+    #logoh1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
+        main h1{
+            text-align: center;
+            grid-column: 1/3;
+        }
+        footer{
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            margin-top: 100px; 
+        }   
+        body{
+            background-color: #99582A;
+        }
+        header{
+            background-color: black;
+        }
+        footer .social img   {
+            padding-top: 15px;
+        }      
+        nav a{
+            padding: 35px;
+        }
+  }

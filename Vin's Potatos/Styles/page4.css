@@ -20,7 +20,8 @@ nav a{
     text-decoration: none;
     color: gold;
     text-align: center;
-    padding: 35px;
+    padding: 15px;
+    display: block;
   }
   nav a:hover{
     background-color: white;
@@ -37,6 +38,26 @@ nav a{
   }
   body{
     background-color: red;
+    margin: 0;
+    padding: 0;
+  }
+  picture{
+    position: relative;
+  }
+  button{
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    right: 100px;
+    border-radius: 5em;
+    background-color: black;
+    
+  }
+  button a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 2em;
+    color: white;
   }
   
 
@@ -82,5 +103,8 @@ nav a{
         }
         footer .social img   {
             padding-top: 15px;
+        }
+        nav a{
+            padding: 35px;
         }
 }
