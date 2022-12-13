@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/page3.css" />
+    <title>About US</title>
+  </head>
+  <body>
+    <div>
+      <picture>
+        <source
+          media="(min-width:1000px)"
+          srcset="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
+        />
+        <source
+          media="(min-width:500px)"
+          srcset="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
+        />
+        <!-- <source media="(min-width:1600px)" srcset="./images/rsz_small.jpg" /> -->
+        <img
+          id="banner"
+          src="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
+          alt="Flowers"
+        />
+        <button><a href="./checkprice.html">Check Price</a></button>
+      </picture>
+    </div>
+    <header>
+      <nav>
+        <a href="./Index.html">Home</a>
+        <a href="./ourproduct.html">Our Product</a>
+        <a href="./checkprice.html">Pricing</a>
+        <a href="./favroitereceipe.html">Our Recipe</a>
+        <a href="./contactus.html">Contact US</a>
+        <a href="./cart.html">Cart</a>
+      </nav>
+    </header>
+    <div id="logoh1">
+      <img
+        src="./Images/vins-idaho-potatoes-low-resolution-color-logo.png"
+        alt="Logo"
+      />
+      <h1>VIN'S IDAHO POTATO</h1>
+    </div>
+    <main>
+      <div>
+        <h2><a href="">Check Local Potatoes Price</a></h2>
+      </div>
+      <div id="apidiv">
+        <h2 id="API">API HERE</h2>
+      </div>
+      <div id="p3title">
+        <h2>Vin's Idaho Potato Price</h2>
+      </div>
+      <div id="form1">
+        <form action="">
+          <h2>US no 1 Potato</h2>
+          <!-- <p>I may add a picture here</p> -->
+          <ul>
+            <li>
+              <label for="lbs">Enter lbs</label>
+              <input
+                placeholder="0-10"
+                id="lbs"
+                type="text"
+                name="lbs"
+                required
+              />
+            </li>
+            <li>
+              <label for="Types">Poteto Type</label>
+              <select id="US no 1 Potato" name="US no 1 Potato">
+                <option value="Russet">Russet Potato</option>
+                <option value="Burbank">Burbank Potato</option>
+                <option value="Red">Red Potato</option>
+                <option value="Yellow">Yellow Potato</option>
+              </select>
+            </li>
+            <li>
+              <input type="radio" name="Pickup" id="Pickup" value="Pickup" />
+              <label for="delivery">Pick up</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="Delivery"
+                id="Delivery"
+                value="Delivery"
+              />
+              <label for="delivery">Delivery</label>
+            </li>
+            <li>
+              <button formaction="" id="button">Submit</button>
+            </li>
+            <li>
+              <a href="">Add to cart</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div id="form2">
+        <form action="">
+          <h2>Frozen</h2>
+          <ul>
+            <li>
+              <label for="Number">Number of Packets</label>
+              <input
+                placeholder="0-10"
+                id="Number"
+                type="number"
+                name="Number"
+                required
+              />
+            </li>
+            <li>
+              <label for="Types">Poteto Type</label>
+              <select id="Frozen" name="Frozen">
+                <option value="Russet">Russet Potato</option>
+                <option value="Burbank">Burbank Potato</option>
+                <option value="Red">Red Potato</option>
+                <option value="Yellow">Yellow Potato</option>
+              </select>
+            </li>
+            <li>
+              <label for="delivery">Pick up</label>
+              <input type="radio" name="Pickup" id="Pickup" value="Pickup" />
+            </li>
+            <li>
+              <label for="delivery">Delivery</label>
+              <input
+                type="radio"
+                name="Delivery"
+                id="Delivery"
+                value="Delivery"
+              />
+            </li>
+            <li>
+              <button formaction="" id="button">Submit</button>
+            </li>
+            <li>
+              <a href="">Add to cart</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div id="form3">
+        <form action="">
+          <h2>Dehydrated</h2>
+          <ul>
+            <li>
+              <label for="Number1">Number of Packets</label>
+              <input
+                placeholder="0-10"
+                id="Number1"
+                type="number"
+                name="Number1"
+                required
+              />
+            </li>
+            <li>
+              <label for="Types">Poteto Type</label>
+              <select id="Dehydrated" name="Dehydrated">
+                <option value="Russet">Russet Potato</option>
+                <option value="Burbank">Burbank Potato</option>
+                <option value="Red">Red Potato</option>
+                <option value="Yellow">Yellow Potato</option>
+              </select>
+            </li>
+            <li>
+              <label for="delivery">Pick up</label>
+              <input type="radio" name="Pickup" id="Pickup" value="Pickup" />
+            </li>
+            <li>
+              <label for="delivery">Delivery</label>
+              <input
+                type="radio"
+                name="Delivery"
+                id="Delivery"
+                value="Delivery"
+              />
+            </li>
+            <li>
+              <button formaction="" id="button">Submit</button>
+            </li>
+            <li>
+              <a href="">Add to cart</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <h3>VIN'S IDAHO POTATO &copy; 2022 - VIN</h3>
+      <a href="./Index.html">Home</a>
+      <a href="./ourproduct.html">Our Product</a>
+      <a href="./checkprice.html">Pricing</a>
+      <a href="./favroitereceipe.html">Our Recipe</a>
+      <a href="./contactus.html">Contact US</a>
+      <a href="./cart.html">Cart</a>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/facebook.png" alt="fb icon" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="images/twitter.png" alt="twitter icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="instagram icon" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

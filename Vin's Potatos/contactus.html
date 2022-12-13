@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./Styles/home.css" />
+    <link rel="stylesheet" href="./Styles/page5.css" />
     <title>About US</title>
   </head>
   <body>
@@ -45,53 +45,78 @@
       <h1>VIN'S IDAHO POTATO</h1>
     </div>
     <main>
-      <h3>About US</h3>
-      <img id="img1" src="./Images/potatoes-Belfast.jpg" alt="Home_Pic1" />
-      <p id="mainp1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam a
-        reprehenderit enim, doloribus, tempore possimus, praesentium
-        voluptatibus accusamus neque eum recusandae laboriosam quidem omnis
-        officia expedita quis unde magnam culpa! Consectetur delectus molestias
-        beatae aut ipsa tempora nostrum? Blanditiis voluptatem iusto quis
-        adipisci nobis esse rerum doloribus odit, fugit aliquam expedita dicta
-        similique quo, corporis itaque rem iure quae vero ad id temporibus quasi
-        atque alias? Quia rerum fuga cupiditate doloribus deleniti cumque
-        aliquam libero labore dolore, maxime ratione non omnis iste illum ad nam
-        provident quos perferendis. Est ratione deserunt soluta id quidem ab,
-        itaque perspiciatis fuga! Sequi, saepe?
-      </p>
-      <br />
+      <h2>Contact US</h2>
+      <h3>What is the reason you are contacting us today? Select the option</h3>
 
-      <br />
-      <img
-        id="img2"
-        src="./Images/pexels-pixabay-1442481.jpg"
-        alt="Home_Pic2"
-      />
-      <p id="mainp2">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
-        veritatis est eaque maxime dolores explicabo ad ullam culpa? Culpa
-        veritatis exercitationem praesentium. Aperiam, autem unde. Officia ea
-        mollitia quo quasi possimus maxime, corporis unde porro saepe eum quod
-        in explicabo aliquam numquam aspernatur! In maxime odio inventore odit
-        voluptatibus. Accusamus, fuga temporibus illo nihil perspiciatis quas,
-        nostrum facere vel earum molestiae fugit ullam assumenda repudiandae
-        aliquam voluptatum dolores consequatur nam commodi! Repellendus
-        dignissimos illo officia delectus, deserunt odio iste nostrum placeat
-        nulla quo. Quo, odio ipsum. Iusto vero ipsa ratione doloribus sequi
-        reprehenderit esse deserunt ipsum laudantium, perspiciatis tempora fuga.
-      </p>
+      <div class="radio1">
+        <input
+          type="radio"
+          id="GeneralComment"
+          name="GeneralComment"
+          value="GeneralComment"
+        />
+        <label for="GeneralComment">General Comment/Question/Request</label>
+      </div>
+      <div class="radio2">
+        <input
+          type="radio"
+          id="Compliment"
+          name="Compliment"
+          value="Complment"
+        />
+        <label for="Compliment">Compliment</label>
+      </div>
+      <div class="radio3">
+        <input type="radio" id="Complaint" name="Complaint" value="Complaint" />
+        <label for="Complaint">Complaint</label>
+      </div>
+
+      <form action="">
+        <ul>
+          <li>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="firstname" required />
+
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="lirstname" required />
+          </li>
+          <li>
+            <label for="CellPhoneNumber">Cell Phone Number</label>
+            <input
+              placeholder="123-456-7890"
+              type="tel"
+              name="CellPhoneNumber"
+              id="CellPhoneNumber"
+            />
+          </li>
+          <li>
+            <label for="Email">Email</label>
+            <input
+              placeholder="xyz@email"
+              type="email"
+              name="email"
+              id="Email"
+              required
+            />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li>
+            <button formaction="./formaction.html" id="button">Submit</button>
+          </li>
+        </ul>
+      </form>
     </main>
     <footer>
       <h3>VIN'S IDAHO POTATO &copy; 2022 - VIN</h3>
-
       <a href="./Index.html">Home</a>
       <a href="./ourproduct.html">Our Product</a>
       <a href="./checkprice.html">Pricing</a>
       <a href="./favroitereceipe.html">Our Recipe</a>
       <a href="./contactus.html">Contact US</a>
       <a href="./cart.html">Cart</a>
-
       <div class="social">
         <a href="https://facebook.com" target="_blank">
           <img src="images/facebook.png" alt="fb icon" />
