@@ -159,4 +159,12 @@ nav a{
           display: flex;
           justify-content: space-between;
         }
+        form img{
+          transition: transform .6s;
+          box-shadow: 5px 5px 10px #6f7364;
+        }
+        form img:hover{
+          opacity: .6;
+          transform: scale(1.1);
+        }
 }

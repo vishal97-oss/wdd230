@@ -104,6 +104,16 @@ nav a{
             display: flex;
             justify-content: space-between;
           }
+          main img{
+            border: solid black 5px;
+  
+          transition: transform .5s;
+          box-shadow: 5px 5px 10px #6f7364;
+          }
+          main img:hover{
+            opacity: .6;
+            transform: scale(0.9);
+            }
 }
 
 
