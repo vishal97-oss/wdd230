@@ -12,10 +12,7 @@ img{
     
 }
 
-nav{
-  display: flex;
-  justify-content: space-between;
-}
+
 nav a{
     text-decoration: none;
     color: gold;
@@ -44,10 +41,10 @@ nav a{
   picture{
     position: relative;
   }
-  picture a{
+  .pictureA{
     position: absolute;
     z-index: 1;
-    bottom: 100px;
+    bottom: 200px;
     right: 100px;
     border-radius: 5em;
     background-color: black;
@@ -100,11 +97,16 @@ nav a{
         }
         header{
             background-color: black;
+            margin-top: -5px;
         }
         footer .social img   {
             padding-top: 15px;
         }
         nav a{
             padding: 35px;
+        }
+        nav{
+          display: flex;
+          justify-content: space-between;
         }
 }

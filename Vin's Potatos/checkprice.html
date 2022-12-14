@@ -25,10 +25,8 @@
           src="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
           alt="Flowers"
         />
-        <button id="pricebutton">
-          <a href="./checkprice.html">Check Price</a>
-        </button>
       </picture>
+      <a href="checkprice.html" class="pictureA">Check Price</a>
     </div>
     <header>
       <nav>
@@ -58,24 +56,23 @@
         <h2>Vin's Idaho Potato Price</h2>
       </div>
       <div id="form1">
-        <form action="">
+        <form action="#">
           <h2>US no 1 Potato</h2>
-          <!-- <p>I may add a picture here</p> -->
+          <img src="./Images/pexels-pixabay-1442481.jpg" alt="Icon" />
           <ul>
-            <img src="./Images/pexels-pixabay-1442481.jpg" alt="Icon" />
             <li>
-              <label for="lbs">Enter lbs</label>
+              <label for="uslbs">Enter lbs</label>
               <input
                 placeholder="0-10"
-                id="lbs"
+                id="uslbs"
                 type="text"
                 name="lbs"
                 required
               />
             </li>
             <li>
-              <label for="Types">Poteto Type</label>
-              <select id="US no 1 Potato" name="US no 1 Potato">
+              <label for="USno1Potato">Potato Type</label>
+              <select id="USno1Potato" name="US no 1 Potato">
                 <option value="Russet">Russet Potato</option>
                 <option value="Burbank">Burbank Potato</option>
                 <option value="Red">Red Potato</option>
@@ -83,50 +80,55 @@
               </select>
             </li>
             <li>
-              <input type="radio" name="Pickup" id="Pickup" value="Pickup" />
-              <label for="delivery">Pick up</label>
+              <input
+                type="radio"
+                name="usPickup"
+                id="usPickup"
+                value="Pickup"
+              />
+              <label for="usPickup">Pick up</label>
             </li>
             <li>
               <input
                 type="radio"
-                name="Pickup"
-                id="Delivery"
+                name="usDelivery"
+                id="usDelivery"
                 value="Delivery"
               />
-              <label for="delivery">Delivery</label>
+              <label for="usDelivery">Delivery</label>
             </li>
-            <li>
+            <!-- <li>
               <button formaction="" id="button">Submit</button>
-            </li>
-            <div id="calcdiv">
-              <h3 id="calculation"></h3>
-            </div>
+            </li> -->
             <li>
-              <button id="localstorage"><a href="">Add to cart</a></button>
+              <h3 id="usCalc"></h3>
+            </li>
+            <li>
+              <a id="usStorage" href="#">Add to cart</a>
             </li>
           </ul>
         </form>
       </div>
       <div id="form2">
-        <form action="">
+        <form action="#">
           <h2>Frozen</h2>
+          <img
+            src="./Images/aliet-kitchen-XNP8cMN8DsQ-unsplash.jpg"
+            alt="Frozen"
+          />
           <ul>
-            <img
-              src="./Images/aliet-kitchen-XNP8cMN8DsQ-unsplash.jpg"
-              alt="Frozen"
-            />
             <li>
-              <label for="Number">Number of Packets</label>
+              <label for="fzlbs">Number of Packets</label>
               <input
                 placeholder="0-10"
-                id="Number"
+                id="fzlbs"
                 type="number"
                 name="Number"
                 required
               />
             </li>
             <li>
-              <label for="Types">Poteto Type</label>
+              <label for="Frozen">Potato Type</label>
               <select id="Frozen" name="Frozen">
                 <option value="Russet">Russet Potato</option>
                 <option value="Burbank">Burbank Potato</option>
@@ -135,44 +137,52 @@
               </select>
             </li>
             <li>
-              <label for="pickup">Pick up</label>
-              <input type="radio" name="Pickup" id="pickup" value="Pickup" />
-            </li>
-            <li>
-              <label for="delivery1">Delivery</label>
               <input
                 type="radio"
-                name="Pickup"
-                id="delivery1"
+                name="fzPickup"
+                id="fzPickup"
+                value="Pickup"
+              />
+              <label for="fzPickup">Pick up</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="fzDelivery"
+                id="fzDelivery"
                 value="Delivery"
               />
+              <label for="fzDelivery">Delivery</label>
             </li>
             <li>
+              <h3 id="fzCalc"></h3>
+            </li>
+            <!-- <li>
               <button formaction="" id="button">Submit</button>
-            </li>
+            </li> -->
             <li>
-              <button id="localstorage"><a href="">Add to cart</a></button>
+              <a id="fzStorage" href="#">Add to cart</a>
             </li>
           </ul>
         </form>
       </div>
       <div id="form3">
-        <form action="">
+        <form action="#">
           <h2>Dehydrated</h2>
+          <img src="./Images/images.jpg" alt="Frozen" />
           <ul>
-            <img src="./Images/images.jpg" alt="Frozen" />
             <li>
-              <label for="Number1">Number of Packets</label>
+              <label for="delbs">Number of Packets</label>
               <input
                 placeholder="0-10"
-                id="Number1"
+                id="delbs"
                 type="number"
                 name="Number1"
                 required
               />
             </li>
             <li>
-              <label for="Types">Poteto Type</label>
+              <label for="Dehydrated">Potato Type</label>
               <select id="Dehydrated" name="Dehydrated">
                 <option value="Russet">Russet Potato</option>
                 <option value="Burbank">Burbank Potato</option>
@@ -181,23 +191,32 @@
               </select>
             </li>
             <li>
-              <label for="delivery">Pick up</label>
-              <input type="radio" name="Pickup" id="Pickup" value="Pickup" />
-            </li>
-            <li>
-              <label for="delivery">Delivery</label>
               <input
                 type="radio"
-                name="Pickup"
-                id="Delivery2"
+                name="dePickup"
+                id="dePickup"
+                value="Pickup"
+              />
+              <label for="dePickup">Pick up</label>
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="deDelivery"
+                id="deDelivery"
                 value="Delivery"
               />
+              <label for="deDelivery">Delivery</label>
             </li>
+
             <li>
+              <h3 id="deCalc"></h3>
+            </li>
+            <!-- <li>
               <button formaction="" id="button">Submit</button>
-            </li>
+            </li> -->
             <li>
-              <button id="localstorage"><a href="">Add to cart</a></button>
+              <a id="deStorage" href="#">Add to cart</a>
             </li>
           </ul>
         </form>

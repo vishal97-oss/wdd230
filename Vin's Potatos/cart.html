@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Styles/page6.css" />
+    <script defer src="./JS/cart.js"></script>
     <title>About US</title>
   </head>
   <body>
@@ -24,9 +25,8 @@
           src="./Images/dan-meyers-IQVFVH0ajag-unsplashh.jpg"
           alt="Flowers"
         />
-
-        <a href="./checkprice.html">Check Price</a>
       </picture>
+      <a href="checkprice.html" class="pictureA">Check Price</a>
     </div>
     <header>
       <nav>
@@ -46,8 +46,34 @@
       <h1>VIN'S IDAHO POTATO</h1>
     </div>
     <main>
-      <h1>Cart Page</h1>
-      <div id="localstorage"></div>
+      <table>
+        <thead>
+          <tr>
+            <td>Your cart</td>
+            <td>Price</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><h1>USDA</h1></td>
+            <td><h2 id="usPrice">$</h2></td>
+          </tr>
+          <tr>
+            <td><h1>Frozen</h1></td>
+            <td><h2 id="fzPrice"></h2></td>
+          </tr>
+          <tr>
+            <td><h1>Dehydrated</h1></td>
+            <td><h2 id="dePrice"></h2></td>
+          </tr>
+          <!-- <h1>USDA</h1>
+            <h2 id="usPrice"></h2>
+            <h1>Frozen</h1>
+            <h2 id="fzPrice"></h2>
+            <h1>Dehydrated</h1>
+            <h2 id="dePrice"></h2> -->
+        </tbody>
+      </table>
     </main>
     <footer>
       <h3>VIN'S IDAHO POTATO &copy; 2022 - VIN</h3>
