@@ -58,6 +58,9 @@ nav a{
     text-align: center;
     grid-column: 1/3;
   }
+  body{
+    background-color: #99582A;
+  }
 
   @media only screen and (min-width: 500px){
     p{

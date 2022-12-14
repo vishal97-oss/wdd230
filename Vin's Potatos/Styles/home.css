@@ -49,7 +49,9 @@ footer h3{
   color: white;
 }
 
-
+body{
+  background-color: #99582A;
+}
 
 
   @media only screen and (min-width: 500px){

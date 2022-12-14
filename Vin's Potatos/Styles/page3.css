@@ -57,6 +57,9 @@ nav a{
   #usStorage, a{
     color: black;
   }
+  body{
+    background-color: #99582A;
+  }
   
 
 @media only screen and (min-width: 500px){

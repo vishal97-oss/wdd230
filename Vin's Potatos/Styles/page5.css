@@ -55,6 +55,9 @@ nav a{
     font-size: 1em;
     color: white;
   }
+  body{
+    background-color: #99582A;
+  }
 
 @media only screen and (min-width: 500px){
     p{
