@@ -58,12 +58,13 @@ body{
     #logoh1{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 5px;
     }
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
-        padding: 0 2.5vw;
+        padding: 5px;
     }
     main h3{
         grid-column: 1/3;

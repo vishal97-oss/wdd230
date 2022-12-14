@@ -69,11 +69,13 @@ nav a{
     #logoh1{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 5px;
         }
         main{
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 10px;
+            padding: 5px;
         }
         main h1{
             text-align: center;
